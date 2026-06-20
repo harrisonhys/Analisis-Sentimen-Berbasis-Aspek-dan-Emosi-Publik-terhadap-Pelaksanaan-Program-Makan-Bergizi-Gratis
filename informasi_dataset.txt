@@ -1,0 +1,32 @@
+Topik : Pelaksanaan Program MBG
+Data Source : Threads
+
+
+Ringkasan sentimen:
+sentiment
+negative     2990
+neutral      2354
+positive     1130
+mixed         541
+frustrasi       1
+Name: count, dtype: int64
+
+Ringkasan relevansi:
+is_relevant
+True     4976
+False    2039
+None        1
+Name: count, dtype: int64
+
+Ringkasan emosi:
+emotion
+neutral           2073
+frustration       2042
+anger              672
+joy                537
+trust              409
+confusion          286
+satisfaction       271
+disappointment     229
+worry              194
+surprise           100

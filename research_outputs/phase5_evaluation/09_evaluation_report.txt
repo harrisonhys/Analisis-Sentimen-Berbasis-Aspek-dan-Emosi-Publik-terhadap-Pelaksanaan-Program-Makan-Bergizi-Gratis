@@ -1,0 +1,47 @@
+# PHASE 5: EVALUATION
+# Generated: 2026-06-21 05:38:54
+
+## 5.1 Final Model Performance Summary
+
+### Sentiment Classification (Logistic Regression)
+- 5-Fold CV Macro F1: mean=0.4761, std=0.0140
+- Fold scores: ['0.4859', '0.4956', '0.4637', '0.4780', '0.4574']
+
+### Emotion Classification (Logistic Regression)
+- 5-Fold CV Macro F1: mean=0.2016, std=0.0168
+- Fold scores: ['0.2189', '0.1854', '0.2251', '0.1907', '0.1880']
+
+## 5.2 Error Analysis
+
+### Sentiment Misclassification Rate: 330/746 (44.2%)
+
+### Confusion Patterns:
+  - mixed → negative: 27 instances
+  - mixed → neutral: 7 instances
+  - mixed → positive: 8 instances
+  - negative → mixed: 55 instances
+  - negative → neutral: 56 instances
+  - negative → positive: 34 instances
+  - neutral → mixed: 8 instances
+  - neutral → negative: 22 instances
+  - neutral → positive: 27 instances
+  - positive → mixed: 27 instances
+  - positive → negative: 30 instances
+  - positive → neutral: 29 instances
+
+## 5.3 Statistical Analysis
+
+### Chi-Square Test: Sentiment × Emotion
+- χ² = 8313.14
+- Degrees of freedom = 81
+- p-value = 0.000000
+- **Interpretation**: Significant association (p < 0.05)
+
+## 5.5 Success Criteria Evaluation
+
+| Criterion | Target | Achieved | Status |
+|-----------|--------|----------|--------|
+| Relevance F1 | ≥ 0.85 | 0.8904 | ✅ PASS |
+| Sentiment Macro-F1 | ≥ 0.70 | 0.4761 | ⚠ BELOW TARGET |
+| Emotion Macro-F1 | ≥ 0.60 | 0.2016 | ⚠ BELOW TARGET |
+| Aspects Identified | ≥ 5 | See Phase 4 — aspect data parsed from labels | ⚠ REVIEW (label-based) |

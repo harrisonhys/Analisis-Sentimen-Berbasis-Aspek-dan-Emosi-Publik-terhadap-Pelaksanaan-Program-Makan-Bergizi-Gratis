@@ -1,0 +1,54 @@
+# PHASE 1: BUSINESS UNDERSTANDING
+# Generated: 2026-06-21 05:38:47
+
+## 1. Research Title
+**Analisis Sentimen Berbasis Aspek dan Emosi Publik terhadap Pelaksanaan
+Program Makan Bergizi Gratis (MBG) pada Media Sosial Threads**
+
+English: **Aspect-Based Sentiment and Emotion Analysis of Public Perception
+toward the Implementation of Indonesia's Free Nutritious Meal Program on Threads**
+
+## 2. Background
+Program Makan Bergizi Gratis (MBG) is a national strategic policy aimed at
+improving human resource quality through nutritional fulfillment. By 2026,
+BGN targets 82.9 million beneficiaries with ~21 billion meal portions across
+thousands of SPPG units nationwide.
+
+The program's massive scale generates diverse public responses on social media,
+particularly Threads — a platform known for narrative, personal, and conversational
+discourse. Initial data shows negative sentiment dominates (42.6%), with frustration
+and anger as the strongest emotions, signaling the need for granular analysis beyond
+simple positive/negative classification.
+
+## 3. Research Objectives
+1. Analyze sentiment distribution toward MBG implementation on Threads.
+2. Identify dominant emotions in public discourse.
+3. Map aspects of MBG implementation that trigger negative, positive, neutral, and mixed sentiment.
+4. Examine relationships between implementation aspects and public emotions.
+5. Generate data-driven policy recommendations for MBG communication and evaluation.
+
+## 4. Research Questions
+1. Bagaimana distribusi sentimen publik terhadap pelaksanaan Program MBG di Threads?
+2. Emosi apa yang paling dominan dalam percakapan publik terkait MBG?
+3. Aspek implementasi MBG apa yang paling banyak memicu sentimen negatif, positif, netral, dan mixed?
+4. Bagaimana hubungan antara aspek implementasi dengan emosi publik seperti frustration, anger, worry, trust, dan satisfaction?
+5. Bagaimana hasil analisis sentimen dan emosi dapat digunakan sebagai masukan evaluasi kebijakan publik?
+
+## 5. Success Criteria
+- Successfully classify relevance with F1 ≥ 0.85
+- Sentiment classification with macro-F1 ≥ 0.70
+- Emotion classification with macro-F1 ≥ 0.60
+- Identify top 5 aspects driving each sentiment category
+- Produce actionable policy recommendations
+
+## 6. Analytical Framework
+**CRISP-DM Methodology** with six phases:
+1. Business Understanding → 2. Data Understanding → 3. Data Preparation
+→ 4. Modeling → 5. Evaluation → 6. Deployment
+
+**Analytical Techniques:**
+- Relevance Detection: TF-IDF + Logistic Regression / SVM
+- Sentiment Classification: TF-IDF + SVM, Naive Bayes (baseline), Ensemble
+- Emotion Classification: TF-IDF + Multinomial NB, SVM, Logistic Regression
+- Aspect Analysis: KeyBERT for keyword extraction, BERTopic for topic modeling
+- Cross-tabulation: Sentiment × Emotion × Aspect matrix

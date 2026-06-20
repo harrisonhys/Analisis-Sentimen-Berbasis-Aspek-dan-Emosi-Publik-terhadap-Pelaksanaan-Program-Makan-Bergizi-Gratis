@@ -1,0 +1,82 @@
+# PHASE 3: DATA PREPARATION
+# Generated: 2026-06-21 05:38:49
+
+## 3.1 Anomaly Correction
+- 1 row "frustrasi" → reclassified as "negative" (emotion label, not sentiment)
+- 1 row is_relevant=None → excluded from relevance modeling
+
+## 3.2 Data Splits
+- Empty texts after cleaning: 165 rows
+- Clean dataset size: 6,851 rows
+
+- Rare emotion classes grouped into 'other': ['curiosity', 'humor', 'disgust', 'hope', 'sarcastic', 'mockery', 'skepticism', 'derision', 'irony', 'distrust', 'contemplation', 'mixed', 'concern', 'disagreement']
+
+### Relevance Detection Split:
+- Train: 4,795 (70.0%)
+- Validation: 1,027 (15.0%)
+- Test: 1,028 (15.0%)
+- Label distribution (train): {np.int64(0): np.int64(1317), np.int64(1): np.int64(3478)}
+
+### Sentiment/Emotion Split (Relevant Posts Only):
+- Train: 3,477 (70.0%)
+- Validation: 745 (15.0%)
+- Test: 746 (15.0%)
+
+### Sentiment Distribution (Train):
+sentiment
+negative    1887
+positive     745
+neutral      471
+mixed        374
+
+### Emotion Distribution (Train — rare grouped):
+emotion_grouped
+frustration       1299
+anger              403
+neutral            377
+joy                328
+trust              279
+satisfaction       179
+confusion          157
+disappointment     141
+worry              139
+surprise            58
+sarcasm             54
+sadness             26
+other               21
+fear                 8
+suspicion            8
+
+## 3.3 TF-IDF Vectorization
+- Max features: 10,000
+- N-gram range: (1, 2)
+- Min document frequency: 2
+- Max document frequency: 90%
+- Sublinear TF scaling: enabled
+
+### Vocabulary Size:
+- Relevance TF-IDF: 10,000 terms
+- Sentiment TF-IDF: 10,000 terms
+- Emotion TF-IDF: 10,000 terms
+
+## 3.4 Top TF-IDF Terms
+  - lên thoii: IDF=8.3769
+  - terbuang sia: IDF=8.3769
+  - kehilangan penerimaan: IDF=8.3769
+  - kedokteran ui: IDF=8.3769
+  - kecilnya: IDF=8.3769
+  - kebijakanpublik: IDF=8.3769
+  - kebersamaan: IDF=8.3769
+  - ke pelecehan: IDF=8.3769
+  - kayak lagi: IDF=8.3769
+  - kasali ajalah: IDF=8.3769
+  - kasali: IDF=8.3769
+  - tau gimana: IDF=8.3769
+  - karang: IDF=8.3769
+  - tau lagi: IDF=8.3769
+  - kanggo: IDF=8.3769
+  - kan kenapa: IDF=8.3769
+  - kami cuma: IDF=8.3769
+  - kaltim tribunnews: IDF=8.3769
+  - tdk akan: IDF=8.3769
+  - kalian menahan: IDF=8.3769

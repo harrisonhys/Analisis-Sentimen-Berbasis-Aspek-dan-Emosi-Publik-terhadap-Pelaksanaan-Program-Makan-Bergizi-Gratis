@@ -1,0 +1,70 @@
+
+## 4.6 Top TF-IDF Features per Sentiment Class
+
+### mixed
+  - tapi: 2.5059
+  - bagus: 1.8078
+  - apapun: 1.6223
+  - dan: 1.5775
+  - tp: 1.5391
+  - banyak: 1.4882
+  - ada: 1.4775
+  - yg: 1.3971
+  - sebagian: 1.3818
+  - tidak: 1.3657
+  - mahasiswa: 1.2913
+  - dpt: 1.2899
+  - padahal: 1.2289
+  - semuaorang: 1.2097
+  - ga: 1.2062
+
+### negative
+  - korupsi: 2.2871
+  - proyek: 1.7064
+  - ga: 1.4496
+  - aja: 1.4392
+  - saja: 1.2834
+  - negara: 1.1843
+  - malah: 1.1824
+  - yg: 1.1674
+  - stop mbg: 1.1667
+  - pendidikan: 1.1013
+  - rakyat: 1.0684
+  - keracunan: 1.0508
+  - anggaran: 1.0417
+  - mbg yg: 1.0136
+  - gak: 1.0083
+
+### neutral
+  - dapur mbg: 1.7792
+  - membalas: 1.6552
+  - mbg hari: 1.5492
+  - atau: 1.4930
+  - apakah: 1.4194
+  - mbg: 1.3925
+  - terkait: 1.3075
+  - mbg ya: 1.0679
+  - sana: 1.0267
+  - termasuk: 1.0252
+  - kerja di: 0.9893
+  - jagaindonesia: 0.9309
+  - mbg siapa: 0.9170
+  - kah: 0.9126
+  - intinya: 0.8878
+
+### positive
+  - mbg: 2.0349
+  - my: 1.5593
+  - sangat: 1.4384
+  - hari ini: 1.4370
+  - petani: 1.3965
+  - prabowo: 1.3466
+  - anak: 1.3391
+  - semangat: 1.2105
+  - alhamdulillah: 1.2035
+  - fbpro: 1.1662
+  - buka: 1.1038
+  - pagi: 1.0991
+  - makan mbg: 1.0926
+  - kerja: 1.0694
+  - sehat: 1.0644

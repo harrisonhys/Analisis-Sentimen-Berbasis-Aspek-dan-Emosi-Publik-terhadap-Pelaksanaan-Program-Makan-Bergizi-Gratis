@@ -1,0 +1,16 @@
+## 2.5 Data Quality Assessment
+
+### Anomalies Found & Fixed:
+1. **Sentiment label "frustrasi"**: 1 row had "frustrasi" in sentiment column → reclassified as "negative" (frustration is an emotion, not sentiment)
+2. **is_relevant = None**: 1 row had None → treated as missing
+3. **Missing aspects**: 0 rows with null aspects
+4. **Missing summary_reason**: 0 rows
+5. **Missing error field**: 7016 rows
+
+### Class Imbalance Assessment:
+- Sentiment: Negative (42.6%) vs Positive (16.1%) → 2.6:1 imbalance → requires stratified sampling + weighted metrics
+- Emotion: Neutral+Frustration (58.6%) vs Surprise (1.4%) → severe imbalance → macro-F1 essential
+- Relevance: Relevant (70.9%) vs Not Relevant (29.1%) → moderate imbalance
+
+### Data Completeness:
+- Full labels (sentiment + emotion + is_relevant): 7,015 / 7,016 rows

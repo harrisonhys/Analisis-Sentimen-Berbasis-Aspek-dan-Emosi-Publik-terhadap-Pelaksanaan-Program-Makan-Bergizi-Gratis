@@ -1,0 +1,5 @@
+,Model,Accuracy,Macro F1,Weighted F1,Train Time (s)
+0,Logistic Regression,0.3584,0.2048,0.3738,0.32
+1,Linear SVC,0.4698,0.1513,0.3863,0.58
+3,Complement NB,0.4631,0.1423,0.3806,0.0
+2,Multinomial NB,0.4094,0.0695,0.2655,0.0

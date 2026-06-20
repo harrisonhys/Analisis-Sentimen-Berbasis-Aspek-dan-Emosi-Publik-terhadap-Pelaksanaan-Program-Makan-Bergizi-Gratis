@@ -1,0 +1,16 @@
+,Emotion Class,Emotion Weight
+0,anger,0.575
+1,confusion,1.476
+2,disappointment,1.644
+3,fear,28.975
+4,frustration,0.178
+5,joy,0.707
+6,neutral,0.615
+7,other,11.038
+8,sadness,8.915
+9,sarcasm,4.293
+10,satisfaction,1.295
+11,surprise,3.997
+12,suspicion,28.975
+13,trust,0.831
+14,worry,1.668

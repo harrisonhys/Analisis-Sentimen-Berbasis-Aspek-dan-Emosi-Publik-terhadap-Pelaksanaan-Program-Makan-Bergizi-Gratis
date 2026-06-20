@@ -1,0 +1,6 @@
+,Objective,Method,Success Metric,Priority
+0,Sentiment Distribution Analysis,Descriptive statistics + Cross-tabulation,Distribution table + bar chart,High
+1,Emotion Classification,Multi-class classification (10 emotions),Macro-F1 ≥ 0.60,High
+2,Aspect-Based Sentiment Mapping,KeyBERT + BERTopic + manual mapping,Coverage ≥ 70% of relevant posts,High
+3,Emotion-Aspect Relationship Analysis,Cross-tabulation Sentiment×Emotion×Aspect,Chi-square significance p < 0.05,Medium
+4,Policy Recommendation Generation,Synthesis of findings → actionable insights,≥ 5 concrete policy recommendations,High

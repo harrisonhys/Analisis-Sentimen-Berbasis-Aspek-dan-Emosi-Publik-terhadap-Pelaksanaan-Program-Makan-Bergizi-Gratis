@@ -1,0 +1,47 @@
+## 6.3 POLICY RECOMMENDATIONS
+
+Based on the analysis of 4,968 relevant Threads posts about MBG, we propose
+the following data-driven policy recommendations:
+
+### 1. Strengthen Food Safety Communication
+**Finding**: Public worry and anger are most strongly associated with food safety issues.
+**Recommendation**:
+- Establish a real-time food safety incident reporting dashboard
+- Proactively communicate SPPG hygiene certifications and inspection results
+- Create a dedicated Threads channel for rapid food safety clarification
+
+### 2. Enhance Budget Transparency
+**Finding**: Frustration is dominant in discussions about budget and transparency.
+**Recommendation**:
+- Publish simplified budget breakdowns accessible to the public
+- Use infographics on Threads to explain cost-per-meal and efficiency metrics
+- Engage independent auditors and publish findings publicly
+
+### 3. Improve Distribution Management
+**Finding**: Distribution delays and coverage gaps trigger significant frustration.
+**Recommendation**:
+- Implement real-time delivery tracking accessible to schools and communities
+- Set up a complaint hotline integrated with social media monitoring
+- Expand SPPG capacity in underserved areas based on sentiment hotspot mapping
+
+### 4. Leverage Positive Sentiment for Program Advocacy
+**Finding**: Positive sentiment is associated with program goals and nutritional benefits.
+**Recommendation**:
+- Amplify success stories and beneficiary testimonials on Threads
+- Partner with nutrition influencers to communicate program benefits
+- Use positive-emotion posts as models for government communication tone
+
+### 5. Continuous Social Media Monitoring
+**Finding**: Threads provides rich, real-time public opinion data.
+**Recommendation**:
+- Deploy the sentiment/emotion classification model for ongoing monitoring
+- Establish a policy-intelligence dashboard updated weekly
+- Integrate findings into MBG program evaluation cycles
+
+### 6. Targeted Intervention Based on Aspect-Emotion Mapping
+**Finding**: Different aspects trigger different emotional responses requiring tailored approaches.
+**Recommendation**:
+- Food safety concerns (worry) → factual reassurance with evidence
+- Budget criticism (frustration) → transparent data disclosure
+- Distribution complaints (anger) → immediate operational response
+- Program goals (trust) → sustained positive engagement

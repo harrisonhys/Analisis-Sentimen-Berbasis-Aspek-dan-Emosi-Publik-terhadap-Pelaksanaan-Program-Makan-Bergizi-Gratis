@@ -1,0 +1,6 @@
+sentiment,False,True,None,All
+mixed,6,535,0,541
+negative,293,2698,0,2991
+neutral,1677,676,1,2354
+positive,63,1067,0,1130
+All,2039,4976,1,7016

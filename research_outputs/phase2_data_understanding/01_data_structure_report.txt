@@ -1,0 +1,70 @@
+# PHASE 2: DATA UNDERSTANDING
+# Generated: 2026-06-21 05:38:48
+
+## 2.1 Dataset Overview
+- Total rows: 7,016
+- Total columns: 25
+- Source: Threads posts (scraped 2026-06-20)
+- Columns: Post ID, Post Code, Date/Time, Display Time, Username, Display Name, Verified, Post Text, Replies, Reposts, Likes, Shares, Has Image, Has Video, Post URL, is_relevant, topic_score, sentiment, sentiment_score, emotion, emotion_score, severity, aspects, summary_reason, error
+
+## 2.2 Column Descriptions
+- **Post ID**: Unique identifier combining username and post code
+- **Post Code**: Threads post code
+- **Date/Time**: ISO 8601 timestamp of post
+- **Display Time**: Human-readable relative time (Indonesian)
+- **Username**: Threads username
+- **Display Name**: User display name
+- **Verified**: Account verification status (Yes/No)
+- **Post Text**: Full text content of the post
+- **Replies**: Number of replies
+- **Reposts**: Number of reposts
+- **Likes**: Number of likes
+- **Shares**: Number of shares
+- **Has Image**: Post contains image
+- **Has Video**: Post contains video
+- **Post URL**: URL to the original Threads post
+- **is_relevant**: Relevance label (True/False/None)
+- **topic_score**: Topic relevance confidence score
+- **sentiment**: Sentiment label (positive/negative/neutral/mixed)
+- **sentiment_score**: Sentiment confidence score
+- **emotion**: Emotion label (10 classes)
+- **emotion_score**: Emotion confidence score
+- **severity**: Severity level
+- **aspects**: Extracted implementation aspects (JSON array)
+- **summary_reason**: Reasoning for classification
+- **error**: Processing errors if any
+
+## 2.3 Missing Values
+               Missing Count  Missing %
+error                   7016     100.00
+Post Text                165       2.35
+Display Time               1       0.01
+is_relevant                1       0.01
+emotion_score              1       0.01
+
+## 2.4 Data Types
+Post ID                str
+Post Code              str
+Date/Time              str
+Display Time           str
+Username               str
+Display Name           str
+Verified               str
+Post Text              str
+Replies              int64
+Reposts              int64
+Likes                int64
+Shares               int64
+Has Image              str
+Has Video              str
+Post URL               str
+is_relevant         object
+topic_score        float64
+sentiment              str
+sentiment_score    float64
+emotion                str
+emotion_score      float64
+severity               str
+aspects                str
+summary_reason         str
+error              float64
