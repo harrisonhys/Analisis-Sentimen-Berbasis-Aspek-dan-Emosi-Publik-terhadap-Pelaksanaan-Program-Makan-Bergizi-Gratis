@@ -1,4 +1,4 @@
-# Analisis Sentimen Berbasis Aspek dan Emosi Publik terhadap Pelaksanaan Program Makan Bergizi Gratis pada Media Sosial Threads
+# Analisis Sentimen dan Persepsi Publik terhadap Pelaksanaan Program Makan Bergizi Gratis pada Media Sosial Threads
 
 **Target Jurnal**: SINTA 5 — Jurnal Nasional Terakreditasi  
 **Bahasa**: Indonesia  
@@ -432,7 +432,7 @@ Lihat file: `research_outputs/phase4_modeling/15_top_features_per_sentiment.txt`
 ---
 
 > **Sitasi (APA 7):**  
-> [Nama Penulis]. (2026). Analisis Sentimen Berbasis Aspek dan Emosi Publik terhadap Pelaksanaan Program Makan Bergizi Gratis pada Media Sosial Threads. *[Nama Jurnal SINTA 5]*, *Vol*(Issue), halaman. 
+> [Nama Penulis]. (2026). Analisis Sentimen dan Persepsi Publik terhadap Pelaksanaan Program Makan Bergizi Gratis pada Media Sosial Threads. *[Nama Jurnal SINTA 5]*, *Vol*(Issue), halaman. 
 
 ---
 
